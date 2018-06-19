@@ -13,6 +13,8 @@ namespace ArrayApplication {
              int j= 8;
             n[ i ] = (i + 100) * j;
             Console.WriteLine("Element[{1}] = {0} {2}", n[i], i,i+1);
+                                 /* here {0} denotes position wherethe output is needed, so changes
+                                 accordingly to where output is defined */
          }
          
          
